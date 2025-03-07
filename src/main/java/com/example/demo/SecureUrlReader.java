@@ -11,7 +11,7 @@ import javax.net.ssl.TrustManagerFactory;
 
 public class SecureUrlReader {
 
-    public static void main(String[] args) throws Exception {
+    public static void createConnection() throws Exception {
 
         // Create a file and a password representation
         File trustStoreFile = new File("target/classes/truststore/myTrustStore");
